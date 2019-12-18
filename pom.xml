@@ -19,6 +19,7 @@
     <modules>
         <module>demo-start</module>
         <module>demo-spring</module>
+        <module>demo-common</module>
     </modules>
 
     <properties>

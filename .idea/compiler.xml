@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-common" />
         <module name="demo-spring" />
         <module name="demo-start" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="demo-bila" target="1.8" />
+      <module name="demo-common" target="1.7" />
       <module name="demo-spring" target="1.8" />
       <module name="demo-start" target="1.8" />
     </bytecodeTargetLevel>
