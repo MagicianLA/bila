@@ -20,6 +20,7 @@
         <module>demo-start</module>
         <module>demo-spring</module>
         <module>demo-common</module>
+        <module>demo-log</module>
     </modules>
 
     <properties>
@@ -49,6 +50,8 @@
             <artifactId>lombok</artifactId>
             <version>1.16.18</version>
         </dependency>
+
+
     </dependencies>
 
     <build>
