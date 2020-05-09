@@ -1,4 +1,4 @@
-package com.bila.demo.spring.controlleradvice;
+package com.bila.demo.spring.advice;
 
 import java.beans.PropertyEditorSupport;
 import java.text.ParseException;
