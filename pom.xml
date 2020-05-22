@@ -21,6 +21,7 @@
         <module>demo-spring</module>
         <module>demo-common</module>
         <module>demo-log</module>
+        <module>demo-structure-algorithm</module>
     </modules>
 
     <properties>

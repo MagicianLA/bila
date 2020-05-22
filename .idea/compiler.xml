@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-start" />
+        <module name="demo-structure-algorithm" />
         <module name="demo-common" />
         <module name="demo-spring" />
-        <module name="demo-structure" />
         <module name="demo-log" />
+        <module name="demo-structure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -19,6 +20,7 @@
       <module name="demo-log" target="1.8" />
       <module name="demo-spring" target="1.8" />
       <module name="demo-start" target="1.8" />
+      <module name="demo-structure-algorithm" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,6 +29,7 @@
       <module name="demo-log" options="-parameters" />
       <module name="demo-spring" options="-parameters" />
       <module name="demo-start" options="-parameters" />
+      <module name="demo-structure-algorithm" options="" />
     </option>
   </component>
 </project>

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo-log/demo-log.iml" filepath="$PROJECT_DIR$/demo-log/demo-log.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-spring/demo-spring.iml" filepath="$PROJECT_DIR$/demo-spring/demo-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-start/demo-start.iml" filepath="$PROJECT_DIR$/demo-start/demo-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-structure-algorithm/demo-structure-algorithm.iml" filepath="$PROJECT_DIR$/demo-structure-algorithm/demo-structure-algorithm.iml" />
     </modules>
   </component>
 </project>
