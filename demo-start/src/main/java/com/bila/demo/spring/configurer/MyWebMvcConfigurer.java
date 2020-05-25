@@ -19,7 +19,7 @@ public class MyWebMvcConfigurer implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(myWebMvcConfigurerInterceptor())
-            .addPathPatterns("/*");
+            .addPathPatterns("/**");
     }
 
     @Bean
