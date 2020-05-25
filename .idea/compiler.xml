@@ -20,7 +20,7 @@
       <module name="demo-log" target="1.8" />
       <module name="demo-spring" target="1.8" />
       <module name="demo-start" target="1.8" />
-      <module name="demo-structure-algorithm" target="1.7" />
+      <module name="demo-structure-algorithm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,7 +29,7 @@
       <module name="demo-log" options="-parameters" />
       <module name="demo-spring" options="-parameters" />
       <module name="demo-start" options="-parameters" />
-      <module name="demo-structure-algorithm" options="" />
+      <module name="demo-structure-algorithm" options="-parameters" />
     </option>
   </component>
 </project>
