@@ -7,6 +7,7 @@
     <list default="true" id="4a284b3a-3851-447f-bcb5-9f534c41f4d8" name="Default" comment="demo">
       <change beforePath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smartfox/common_info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-common/src/main/java/com/bila/demo/common/utils/GenericTokenParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-common/src/main/java/com/bila/demo/common/utils/GenericTokenParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,26 +517,12 @@
       <recent name="com.bila.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoStartApplication">
+  <component name="RunManager" selected="Application.GenericTokenParser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="AnnotationBeanUtilsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bila.demo.spring.clazz.annotationbeanutils.AnnotationBeanUtilsDemo" />
-      <module name="demo-spring" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bila.demo.spring.clazz.annotationbeanutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DownloadData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bila.demo.easyexcel.data.DownloadData" />
@@ -544,6 +531,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bila.demo.easyexcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericTokenParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bila.demo.common.utils.GenericTokenParser" />
+      <module name="demo-common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bila.demo.common.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,21 +643,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnnotationBeanUtilsDemo" />
       <item itemvalue="Application.RepeatableDemo" />
       <item itemvalue="Application.LocalVariableTableParameterNameDiscovererDemo" />
       <item itemvalue="Application.DownloadData" />
       <item itemvalue="JUnit.MyApplicationListenerTest.test" />
       <item itemvalue="Spring Boot.DemoStartApplication" />
       <item itemvalue="Spring Boot.DemoSpringApplication" />
+      <item itemvalue="Application.GenericTokenParser" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericTokenParser" />
         <item itemvalue="JUnit.MyApplicationListenerTest.test" />
         <item itemvalue="Application.RepeatableDemo" />
         <item itemvalue="Application.DownloadData" />
         <item itemvalue="Application.LocalVariableTableParameterNameDiscovererDemo" />
-        <item itemvalue="Application.AnnotationBeanUtilsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -690,6 +691,8 @@
       <workItem from="1590392035844" duration="112000" />
       <workItem from="1590400279913" duration="28000" />
       <workItem from="1590501413225" duration="2679000" />
+      <workItem from="1590744024323" duration="121000" />
+      <workItem from="1591355778520" duration="444000" />
     </task>
     <task id="LOCAL-00001" summary="demo">
       <created>1576122332747</created>
@@ -747,7 +750,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590386867322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="demo">
+      <created>1590744151004</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590744151004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,10 +781,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="251" y="381" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1590378807952" />
-    <state x="128" y="21" key="CommitChangelistDialog2" timestamp="1590386867163">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1668" y="34" key="CommitChangelistDialog2" timestamp="1590744150820">
+      <screen x="1440" y="0" width="2560" height="1440" />
     </state>
     <state x="128" y="21" key="CommitChangelistDialog2/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1590386867163" />
+    <state x="1668" y="34" key="CommitChangelistDialog2/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1590744150820" />
     <state x="128" y="21" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1590382127407" />
     <state x="144" y="79" key="DiffContextDialog" timestamp="1590066239575">
       <screen x="0" y="0" width="1440" height="900" />
